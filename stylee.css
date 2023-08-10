@@ -124,6 +124,7 @@ section {
     z-index: -1;
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
+    display:none;
 }
 
 .home.show-animate .home-content .text-animate h3::before{
