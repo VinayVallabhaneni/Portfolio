@@ -107,7 +107,6 @@ section {
     background-repeat: no-repeat;
     -webkit-background-clip:text;
     background-position: -63rem 0 ;
-    display:none;
 }
 
 .home.show-animate .home-content .text-animate h3{
@@ -125,6 +124,7 @@ section {
     z-index: -1;
     animation: homeCursorText 6s linear infinite;
     animation-delay: 2s;
+    display: none;
 }
 
 .home.show-animate .home-content .text-animate h3::before{
